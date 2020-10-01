@@ -4,8 +4,8 @@
 
 //WiFiClient client;
 
-const char* ssid = "nodemcu"; //Enter your wifi name
-const char* password = "sanjay"; //Enter your wifi password
+const char* ssid = "nodemcu"; //WIFI name with which NodeMCU is connected 
+const char* password = "sanjay"; //Password of the WIFI 
 IPAddress local_ip(192,168,0,100);
 IPAddress gateway(192,168,0,100);
 IPAddress subnet(255,255,255,0);
